@@ -1,0 +1,132 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.zithara-logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.new-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-btn,
+.pagination-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover,
+.pagination-btn:hover {
+  background-color: #0056b3;
+}
+
+.pagination-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+.sort-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sort-btn:hover {
+  background-color: #0056b3;
+}
+
+.sort-btn.active {
+  font-weight: bold;
+  background-color: #0056b3;
+}
+
+.sort-btn:not(.active):hover {
+  background-color: #007bff;
+}
+
+.sort-btn.date {
+  margin-right: 10px;
+}
+
+.sort-btn.time {
+  margin-right: 10px;
+}
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sorting-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.sort-btn {
+  padding: 8px 16px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+.sort-btn.active {
+  font-weight: bold;
+}
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.page-numbers {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+}
